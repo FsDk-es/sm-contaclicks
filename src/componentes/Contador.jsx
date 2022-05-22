@@ -2,7 +2,7 @@ import React from 'react'
 import '../css/contador.css'
 function Contador({numClicks}) {
   return (
-    <div className="contador">25</div>
+    <div className="contador">{numClicks}</div>
   );
 }
 
